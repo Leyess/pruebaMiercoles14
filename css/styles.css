@@ -142,6 +142,24 @@ body {
     justify-items: center;
     justify-content: center;
     margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.verMas {
+    width: 220px;
+    border: none;
+    outline: none;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-weight: 400;
+    border-radius: 22px;
+    padding: 10px;
+    cursor: pointer;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-size: 20px;
 }
 
 .novedades {
@@ -176,7 +194,7 @@ hr {
 
 .producto {
     width: 200px;
-    height: 350px;
+    height: 310px;
     border-radius: 20px;
 
     display: flex;
@@ -188,12 +206,6 @@ hr {
     padding: 20px;
 
     box-shadow: 0px 0px 8px rgba(82, 82, 82, 0.5);
-}
-
-.producto img {
-    width: 100%;
-    height: 300px;
-    margin-bottom: 10px;
 }
 
 .infoProducto{
@@ -238,4 +250,35 @@ hr {
     width: 18px;
     height: 18px;
     margin-right: 5px;
+}
+
+.menu {
+    width: 90%;
+    height: 78px;
+    background-color: #000000;
+    color: #FFFFFF;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+
+    border-radius: 40px;
+}
+/* .menuIcocnos button img{
+    background-color: tr;
+}
+
+.menuIcocnos button:hover{
+    background-color: #4A4A4A;
+    background-color: #000000;
+    border-radius: 70px;
+} */
+
+.menu img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 4px;
 }
