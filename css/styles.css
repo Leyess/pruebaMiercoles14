@@ -6,7 +6,7 @@
 
 body {
     /* width: 100%; */
-    height: 100vh;
+    /* height: 100vh; */
     margin: 10px;
 
     font-family: 'Actor', sans-serif;
@@ -19,7 +19,7 @@ body {
     justify-items: center;
     align-items: center;
     
-    gap: 10px;
+    gap: 20px;
 }
 
 .header {
@@ -87,7 +87,7 @@ body {
 
 .catalogoProductos {
     width: 80%;
-    height: 110px;
+    /* height: 110px; */
     
     display: block;
     justify-content: center;
@@ -103,7 +103,7 @@ body {
     justify-content: center;
     justify-items: center;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 .fondoImg {
@@ -128,6 +128,7 @@ body {
     justify-items: center;
     align-items: center;
     gap: 15px;
+    margin-top: 5px;
 }
 
 .botonesCatalogo input[type="button"] {
@@ -267,15 +268,23 @@ hr {
 
     border-radius: 40px;
 }
-/* .menuIcocnos button img{
-    background-color: tr;
+
+
+.menuIconos button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #000000;    
+    padding: 10px;    
+    cursor: pointer;    
+    transition: all 0.3s ease;
 }
 
-.menuIcocnos button:hover{
-    background-color: #4A4A4A;
-    background-color: #000000;
-    border-radius: 70px;
-} */
+.menuIconos button:hover{
+    background-color: #4a4a4ad0;
+    /* background-color: #000000; */
+    border-radius: 75px;
+}
 
 .menu img {
     width: 40px;
