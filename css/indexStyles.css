@@ -245,7 +245,8 @@ hr {
     background-color: transparent;
     color: #FFFFFF;
     font-size: 20px;
-    padding: 10px;    
+    padding: 10px;
+    cursor: pointer;
 }
 
 .botonComprar img {
@@ -269,13 +270,12 @@ hr {
     border-radius: 40px;
 }
 
-
 .menuIconos button {
     border: none;
     outline: none;
     background-color: transparent;
     color: #000000;    
-    padding: 10px;    
+    padding: 12px;    
     cursor: pointer;    
     transition: all 0.3s ease;
 }
